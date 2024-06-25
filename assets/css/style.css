@@ -1,0 +1,823 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+
+:root {
+  --header-height: 3.5rem;
+  --first-color: #F1F1F3;
+  --second-color: #B60082;
+  --third-color: #FCFCFD;
+  --fourth-color: #F7F7F8;
+  --fifth-color: #FFDAF4;
+  --button-color-1: #F1F1F3;
+  --button-color-2: #B60082;
+  --button-color-3: #000000;
+  --button-color-4: #FFDAF4;
+  --body-color: #ffffff;
+  --text-color-1: #ffffff;
+  --text-color-2: #000000;
+  --body-font: "Urbanist", sans-serif
+}
+
+.txtl {
+  color: var(--text-color-1)
+}
+
+.txtd {
+  color: var(--text-color-2)
+}
+
+.txtg {
+  color: #706f6f
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font)
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+.fs58 {
+  font-size: 58px
+}
+
+.fs48 {
+  font-size: 48px
+}
+
+.fs38 {
+  font-size: 38px
+}
+
+.fs28 {
+  font-size: 28px
+}
+
+.fs24 {
+  font-size: 24px
+}
+
+.fs22 {
+  font-size: 22px
+}
+
+.fs18 {
+  font-size: 18px
+}
+
+.fs16 {
+  font-size: 16px
+}
+
+.fs14 {
+  font-size: 14px
+}
+
+.fw400 {
+  font-weight: 400px
+}
+
+.fw500 {
+  font-weight: 500
+}
+
+.fw600 {
+  font-weight: 600
+}
+
+.fw700 {
+  font-weight: 700
+}
+
+.activee,
+.btnc2,
+.nav-item a:hover {
+  color: var(--button-color-2)
+}
+
+.bgcolor1 {
+  background-color: var(--first-color)
+}
+
+.bgcolor2 {
+  background-color: var(--third-color)
+}
+
+.bgcolor3 {
+  background-color: var(--fourth-color)
+}
+
+.bgcolor4 {
+  background-color: var(--second-color)
+}
+
+.bgcolor5 {
+  background-color: var(--fifth-color)
+}
+
+.padd {
+  padding: 30px 80px
+}
+
+.padd2 {
+  padding: 80px 65px
+}
+
+.navbarr {
+  border-radius: 100px;
+  padding: 16px;
+  background-color: var(--third-color);
+  border: 2px solid var(--first-color)
+}
+
+.logo {
+  height: 60px
+}
+
+.btnpadd {
+  padding: 40px;
+  border-radius: 16px
+}
+
+.circlepadd {
+  padding: 10px 12px;
+  border-radius: 100px;
+  margin: 10px 20px 10px 10px;
+  background-color: var(--button-color-2);
+  color: var(--text-color-1);
+}
+
+.circlepadd1 {
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 100px;
+  margin: 10px 20px 10px 10px;
+  background-color: var(--button-color-4);
+  color: var(--text-color-2);
+
+}
+.heropadd{
+  background-color: var(--button-color-2);
+  padding: 6px;
+  line-height: normal;
+  color: var(--text-color-1);
+  border-radius: 14px;
+}
+
+.circlepad,
+i {
+  padding: 10px
+}
+
+.circlepad {
+  border-radius: 100px;
+  background-color: var(--button-color-2);
+}
+
+.keycard {
+  border-radius: 20px;
+  padding: 40px 50px;
+  background-color: var(--third-color)
+}
+
+.keycardtitle {
+  border-radius: 14px;
+  padding: 8px 20px;
+  background-color: var(--first-color)
+}
+
+.btn1,
+.btn2,
+.btn4icon,
+.btnp {
+  border-radius: 100px
+}
+
+.contentpadd {
+  padding: 0 250px
+}
+
+.btn1 {
+  padding: 6px 20px 6px 6px;
+  background-color: var(--button-color-1)
+}
+
+.btn2,
+.btnp {
+  background-color: var(--button-color-2);
+  padding: 8px 8px 8px 16px;
+  color: var(--text-color-1)
+}
+
+.btnp {
+  border: 1px solid var(--button-color-2);
+}
+
+.btnp:hover {
+  border: 1px solid var(--button-color-2);
+  color: #B60082;
+}
+
+.btnd,
+.btnl {
+  border-radius: 100px;
+  padding: 8px 8px 8px 16px;
+}
+
+.btnl {
+  color: var(--text-color-2);
+  background-color: var(--text-color-1);
+  border: 1px solid var(--button-color-3);
+}
+
+.btnd {
+  color: var(--text-color-1);
+  background-color: var(--text-color-2);
+  border: 1px solid var(--text-color-2);
+}
+.btn2:hover,
+.btnd:hover,
+.btnl:hover{
+  color: var(--button-color-2);
+  border: 1px solid var(--button-color-2);
+}
+
+.btn3 {
+  background-color: #fcfcfc;
+  color: var(--text-color-2)
+}
+
+.btn4icon {
+  border: 1px solid var(--button-color-2);
+  padding: 8px;
+  background-color: var(--button-color-2);
+  margin: 5px
+}
+
+.btn4icon:hover {
+  color: var(--button-color-2);
+  border: 1px solid var(--button-color-2)
+}
+
+.nav-item a {
+  transition: .4s;
+  padding: 12px 20px !important;
+  border: 1px solid transparent
+}
+
+.nav-item a:hover {
+  border-radius: 100px;
+  border: 1px solid var(--button-color-2)
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.activee {
+  background-color: var(--first-color);
+  border: 1px solid #ebe8e8;
+  border-radius: 100px
+}
+
+.cardcont {
+  border: none;
+  border-radius: 18px;
+  background-color: var(--second-color);
+  padding: 24px;
+  text-align: start
+}
+
+.cardborder,
+.crdimg1 {
+  padding: 0
+}
+
+.crdimg2 {
+  margin-top: 52%;
+  padding: 16px 20px
+}
+
+.crdimg3 {
+  margin-top: 30%
+}
+
+.crdimg4 {
+  margin-top: 10%
+}
+
+.overlaypadd {
+  padding: 0 150px
+}
+
+.underlaypadd {
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 27%;
+  background-color: #fff
+}
+
+.underlaypadd2 {
+  margin-top: 70px
+}
+
+.underlaypadd3 {
+  padding-top: 70px
+}
+
+.contactimgbottom {
+  margin-top: 20px;
+  padding: 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid var(--first-color);
+  border-radius: 10px
+}
+
+.accordion2::after {
+  font-family: 'Font Awesome 6 Free';
+  content: '\2b';
+  font-weight: 900;
+  transition: transform .3s
+}
+
+.accordion2 {
+  background-color: #ffdaf4;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 100px
+}
+
+.accordion .accordion-item {
+  margin-top: 20px
+}
+
+.accordion2[aria-expanded=true]::after {
+  transform: rotate(135deg)
+}
+
+.faqpadd {
+  padding: 60px;
+  border-radius: 16px
+}
+
+.contactform {
+  border: 8px solid var(--first-color);
+  border-radius: 12px;
+  padding: 40px
+}
+
+.contactsect1 {
+  border: 8px solid var(--first-color);
+  border-radius: 12px;
+  padding: 100px 60px
+}
+
+.sect1design {
+  margin-top: -8%;
+  margin-left: -5%
+}
+
+.cardarrow {
+  background-color: transparent;
+  color: var(--text-color-1);
+  transition: transform 0.2s ease-in-out;
+}
+.cardarrowcircle{
+  padding: 4px 5px;
+  background-color: black;
+  border: 1px solid var(--text-color-2);
+  border-radius: 100px;
+}
+
+.cardarrowhover:hover .cardarrow{
+  animation: moveArrow 0.2s linear forwards;
+  color: var(--button-color-2);
+}
+.cardarrowhover:hover .cardarrowcircle {
+  background-color: transparent;
+  border: 1px solid var(--button-color-2);
+}
+.cardarrowhover:hover .cardarrow2 {
+  animation: moveArrow 0.2s linear forwards;
+  color: var(--button-color-2);
+}
+@keyframes moveArrow {
+  0% {
+      transform: translate(0, 0) rotate(315deg);
+  }
+  
+  
+  
+  100% {
+      transform: translate(5px, -5px) rotate(315deg);
+  }
+}
+
+.pinkrow1 {
+  padding: 100px 40px;
+  background-color: var(--second-color);
+  border-radius: 16px;
+  text-align: center
+}
+
+.pink3 {
+  padding: 20px 5px 23px 20px;
+  border-radius: 100px;
+  z-index: 100;
+  position: relative;
+}
+
+.btn5,
+.btn6 {
+  background-color: #b60082
+}
+
+.pinkdesign {
+  margin-top: -25%;
+  z-index: 10;
+  position: relative
+}
+
+.donaterow2 {
+  padding: 8px 24px;
+  border-radius: 12px;
+  background-color: var(--button-color-2);
+  color: var(--text-color-1);
+}
+
+.btnwidth {
+  width: 45%
+}
+
+.qrimg {
+  width: 200px
+}
+
+.hero2padd {
+  margin-top: 20px;
+  padding: 30px 24px;
+  background-color: var(--third-color);
+  border: 16px solid var(--first-color)
+}
+
+
+@media (max-width:1258px) {
+  .underlaypadd2 {
+    padding-top: 130px
+  }
+  .heropadd{
+    background-color:transparent;
+    padding: 0px;
+    color: var(--button-color-2);
+   
+  }
+  .design2 {
+    display: none
+  }
+
+  .pinkdesign {
+    margin-top: -43%
+  }
+}
+
+@media (max-width:992px) {
+  
+  .fs58 {
+    font-size: 48px
+  }
+
+  .fs48 {
+    font-size: 32px
+  }
+
+  .fs38 {
+    font-size: 28px
+  }
+
+  .fs24,
+  .fs28 {
+    font-size: 22px
+  }
+
+  .fs22 {
+    font-size: 18px
+  }
+
+  .fs18 {
+    font-size: 16px
+  }
+
+  .fs14,
+  .fs16 {
+    font-size: 14px
+  }
+
+  .padd {
+    padding: 20px 55px
+  }
+
+  .padd2 {
+    padding: 20px 40px
+  }
+
+  .btnpadd {
+    padding: 30px
+  }
+
+  .btn2 {
+    padding: 6px 6px 6px 14px
+  }
+
+  .navbarr {
+    border-radius: 60px;
+    padding: 12px
+  }
+
+  .logo {
+    height: 45px
+  }
+
+  .keycard {
+    border-radius: 15px;
+    padding: 30px 40px
+  }
+
+  .keycardtitle {
+    border-radius: 12px;
+    padding: 6px 30px
+  }
+
+  .circlepadd {
+    padding: 6px 8px;
+    border-radius: 100px;
+    margin: 10px
+  }
+
+  .circlepadd1 {
+    padding: 6px 10px
+  }
+
+  .overlaypadd {
+    padding: 0 80px
+  }
+
+  .underlaypadd {
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 26%
+  }
+
+  .faqpadd {
+    padding: 40px;
+    border-radius: 12px
+  }
+
+  .contactimgbottom {
+    margin-top: 15px;
+    padding: 18px 22px;
+    border: 2px solid var(--first-color);
+    border-radius: 8px
+  }
+
+  .contactform {
+    border: 6px solid var(--first-color);
+    border-radius: 10px;
+    padding: 25px
+  }
+
+  .contactsect1 {
+    border: 6px solid var(--first-color);
+    border-radius: 10px;
+    padding: 60px 40px
+  }
+
+  .pinkrow1 {
+    padding: 60px 25px;
+    border-radius: 12px
+  }
+
+  .btn5 {
+    background-color: #b60082
+  }
+
+  .pinkdesign {
+    margin-top: -52%
+  }
+
+  .qrimg {
+    width: 150px
+  }
+
+  .hero2padd {
+    margin-top: 15px;
+    padding: 18px;
+    border-radius: 12px;
+    border: 12px solid var(--first-color)
+  }
+
+  .contentpadd {
+    padding: 0
+  }
+}
+
+@media (max-width:768px) {
+  .fs58 {
+    font-size: 38px
+  }
+
+  .fs48 {
+    font-size: 28px
+  }
+
+  .fs38 {
+    font-size: 24px
+  }
+
+  .fs28 {
+    font-size: 18px
+  }
+
+  .fs22,
+  .fs24 {
+    font-size: 16px
+  }
+
+  .fs18 {
+    font-size: 14px
+  }
+
+  .fs16 {
+    font-size: 12px
+  }
+
+  .fs14 {
+    font-size: 10px
+  }
+
+  .crdimg1 {
+    padding: 0
+  }
+
+  .crdimg2,
+  .crdimg3 {
+    margin-top: 10%
+  }
+
+  .crdimg4 {
+    margin-top: -20%
+  }
+
+  .faqpadd {
+    padding: 20px;
+    border-radius: 10px
+  }
+
+  .pinkrow1 {
+    padding: 40px 20px;
+    background-color: var(--second-color);
+    border-radius: 16px;
+    text-align: center
+  }
+
+  .pink3 {
+    padding: 0;
+    background-color: transparent;
+    text-decoration: 2px solid var(--button-color-4) underline;
+    border-radius: 0;
+    color: var(--button-color-4)
+  }
+
+  .btn5 {
+    background-color: var(--button-color-4)
+  }
+
+  .pinkdesign {
+    width: 60%;
+    margin-top: -38%
+  }
+  .btnp{
+    background-color: var(--button-color-4);
+    color: var(--text-color-2);
+  }
+ 
+}
+
+@media (max-width:576px) {
+  .padd {
+    padding: 10px 30px
+  }
+
+  .padd2 {
+    padding: 10px 20px
+  }
+
+  .navbarr {
+    border-radius: 40px;
+    padding: 8px
+  }
+
+  .logo {
+    height: 30px
+  }
+
+  .btnpadd {
+    padding: 20px
+  }
+
+  .btn2 {
+    padding: 4px 4px 4px 12px
+  }
+
+  .crdimg1 {
+    padding: 0
+  }
+
+  .crdimg2,
+  .crdimg3,
+  .crdimg4 {
+    margin-top: 5%
+  }
+
+  .keycard {
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: var(--third-color)
+  }
+
+  .keycardtitle {
+    border-radius: 10px;
+    padding: 4px 20px;
+    background-color: var(--first-color)
+  }
+
+  .overlaypadd {
+    padding: 0 10px
+  }
+
+  .underlaypadd {
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 26%
+  }
+
+  .underlaypadd2 {
+    padding-top: 130px
+  }
+
+  .underlaypadd3 {
+    padding-top: 120px
+  }
+
+  .faqpadd {
+    padding: 10px 15px;
+    border-radius: 8px
+  }
+
+  .navbarbottom {
+    display: flex;
+    flex-direction: column
+  }
+
+  .contactimgbottom {
+    margin-top: 10px;
+    padding: 12px 18px;
+    border: 2px solid var(--first-color);
+    border-radius: 8px
+  }
+
+  .contactform {
+    border: 4px solid var(--first-color);
+    border-radius: 8px;
+    padding: 15px
+  }
+
+  .contactsect1 {
+    border: 4px solid var(--first-color);
+    border-radius: 8px;
+    padding: 30px 10px
+  }
+
+  .sect1design {
+    margin-top: -10%;
+    margin-left: -3%
+  }
+
+  .qrimg {
+    width: 100px
+  }
+
+  .hero2padd {
+    margin-top: 10px;
+    padding: 0 8px;
+    border-radius: 8px;
+    border: 2px solid var(--first-color)
+  }
+  
+}

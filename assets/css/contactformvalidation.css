@@ -1,0 +1,27 @@
+
+.input-control input,.input-control textarea {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus,.input-control textarea {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input, .input-control2.error input{
+    border-color: #ff3860;
+}
+
+.input-control .error ,.input-control2 .error {
+    color: #ff3860;
+    font-size: 11px;
+    height: 13px;
+}

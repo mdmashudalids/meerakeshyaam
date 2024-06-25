@@ -1,0 +1,138 @@
+ /* Custom CSS for the carousel */
+
+.owl-carousel .itemcaro1 {
+    width: 100% !important;
+    background: #d8b5d1;
+    color: #FFF;
+    margin: 10px;
+    border-radius: 100px;
+    text-align: center;
+}
+.owl-carousel .itemcaro2 {
+    background-color: #ffffff;
+
+}
+.caro{
+    border: 10px solid #FFDAF4;
+    border-radius: 16px;
+}
+.caropadd{
+        padding: 40px 350px;
+}
+.caropadd2{
+    padding: 40px 350px;
+}
+        
+.caro2{
+    padding: 0px 20px;
+    backdrop-filter: blur(10px);
+    border: 8px solid white;
+}
+.caroabstractdesign{
+    margin-top: -30%;
+}
+
+.custom-nav-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-nav-buttons button {
+    background-color: #B60082;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.carotxt{
+    width: 10% !important;
+    height: 10% !important;
+}
+
+.custom-nav-buttons button:hover {
+    background-color: #d8b5d1;
+    color: black;
+}
+@media (max-width:1258px){
+    .abstracthide{
+        display: none;
+    }
+    .caroabstractdesign{
+        margin-top: -40%;
+    }
+    .caropadd{
+        padding: 30px 160px;
+}
+.caropadd2{
+    padding: 30px 140px;
+}
+    .caro2{
+        padding: 0px 100px;
+    }
+    .itemcaro1{
+        width: 100%;
+    }
+    .custom-nav-buttons button {
+        padding: 0;       
+    }
+}
+
+
+@media (max-width:992px) {
+  
+    .caroabstractdesign{
+        margin-top: -60%;
+    }
+    .caropadd{
+        padding: 20px 100px;
+}
+.caropadd2{
+    padding: 20px 100px;
+}
+    .caro2{
+        padding: 0px 20px;
+    }
+    .custom-nav-buttons button {
+        padding: 5px;       
+    }
+    .owl-carousel .itemcaro1 {
+        width: 90%;        
+    }
+}
+@media (max-width:768px) {
+    .caroabstractdesign{
+        margin-top: -80%;
+    }
+    .caropadd{
+        padding: 10px 40px;
+}
+.caropadd2{
+    padding: 0;
+}
+    .caro2{
+        padding: 20px;
+    }
+    .itemcaro2{
+        padding: 10px;
+    }
+    
+    .itemcaro2 span p{
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    .owl-carousel .itemcaro1 {
+        width: 100%;        
+    }
+     .caro2{
+        padding: 10px;
+    }
+ 
+    .itemcaro2{
+        padding: 4px;
+    }
+}
+   

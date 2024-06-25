@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Donate</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- import css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contactformvalidation.css">
+  <!-- import javascript for validation -->
+  <script defer src="./assets/js/donateformvalidation.js"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="padd">
+        <nav class="navbar navbarr navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"><img src="./assets/images/icons/logo.png" class="img-fluid logo" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fs28 btnc2"><i class="fa-solid fa-grip-lines" id="navbarIcon"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <br>
+                        <li class="nav-item">
+                            <a class="nav-link  fs14 fw500" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs14 fw500" href="involved.html">Get Involved</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link activee fs14 fw500" href="donate.html">Donate</a>
+                        </li>
+                        <!--
+                        <li class="nav-item">
+                            <a class="nav-link fs14 fw500" href="impact.html">Impact Areas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs14 fw500" href="stories.html">Success Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs14 fw500" href="news.html">News</a>
+                        </li>
+                        -->
+                    </ul>
+                    <form class="d-flex">
+                        <a href="contact.html" class="btn btn2 fs14 fw500">Contact Us <i class="fa-solid fa-envelope"></i></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="padd">
+        <div class="container-fluid contactsect1 bgcolor3">
+            <div class="row">
+                <div class="col-md-1 sect1design">
+                    <span><img src="./assets/images/contact/abstract_design_1.png" alt="No Image Found"></span>
+                </div>
+                <div class="col-md-5 ">
+                    <span class="fs38 fw600 heropadd">Donate to Empower Women and Promote Sustainability.</span>
+                </div>
+
+                <div class="col-md-6 pt-4 pt-lg-0">
+                    <span class="fs16 fw500 lh-sm">Every child deserves the opportunity to reach their full potential,
+                        regardless of their circumstances. MKS is a charity organization dedicated to helping Women in
+                        need. We provide a variety of programs and services to help Women succeed in school, stay
+                        healthy, and have a brighter future.</span>
+                    <div class="pt-4">
+                        <a href="donate.html" class="cardarrowhover"><button class="btn btnd fs14 fw500"><span class="text-decoration-none">Donate Now<i class="fa-solid fa-arrow-right fa-rotate-by cardarrow" style="--fa-rotate-angle: 315deg;"></i></span>
+                        </button></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- hero 2 section -->
+    <section class="padd ">
+        <div class="container-fluid">
+            <div class="row bgcolor3 contactform">
+                <div class="col-md-4 pt-4 pt-lg-0">
+                    <p class="fs28 fw600">Making a Meaningful <br> Difference Together</p>
+                    <span class="fs16 fw500 lh-sm">At MKS, we believe that true impact is achieved when individuals,
+                        communities, and organizations come together with a shared purpose – to create positive change
+                        in the world.</span>
+                    <div class="pt-4">
+                        <a href="donate.html" class="cardarrowhover"><button class="btn btnd fs14 fw500"><span class="text-decoration-none">Donate Now<i class="fa-solid fa-arrow-right fa-rotate-by cardarrow" style="--fa-rotate-angle: 315deg;"></i></span>
+                        </button></a>
+                    </div>
+                </div>
+
+                <div class="col-md-8 bgcolor2 contactform mt-3 mt-lg-0">
+                    <div class="container">
+                        <div class="row pt-3">
+                            <div class="col-6 ">
+                                <div><span>
+                                        <div>
+                                            <div><span class="donaterow2 fs38 fw600">70%</span></div>
+                                        </div>
+                                        <p class="fs18 fw500 py-2">Education Support</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div><span>
+                                    <div>
+                                            <div><span class="donaterow2 fs38 fw600">24/7</span></div>
+                                        </div>
+                                        <p class="fs18 fw500 py-2">Support Environment</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div><span>
+                                    <div>
+                                            <div><span class="donaterow2 fs38 fw600">108</span></div>
+                                        </div>
+                                        <p class="fs18 fw500 py-2">Nutrition Programs</p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div><span>
+                                    <div>
+                                            <div><span class="donaterow2 fs38 fw600">2k+</span></div>
+                                        </div>
+                                        <p class="fs18 fw500 py-2">Happy Trees Planted</p>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- donation types -->
+    <!-- <section class="padd">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center lh-sm">
+                    <span class="fs38 fw600">Donation Types</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center ">
+                    <span class="fs16 fw500">MKS hosts a variety of fundraising events throughout the year. These events are a great way to raise money for MKS and to have fun with <br> other people who care about helping Women in need.</span>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-md-6 order-1 order-lg-0">
+                    <div class="card bgcolor1 btnpadd h-100 border-0">
+                        <div class="d-flex justify-content-between align-items-center btnpadd px-0 pt-0">
+                            <span class="fs28 fw600">Mission</span>
+                            <span><button class="btn btn2 btn3 fs14 fw500" type="submit">Learn More <i
+                                        class="fa-solid fa-arrow-right fa-rotate-by"
+                                        style="--fa-rotate-angle: 315deg;"></i>
+                        </div>
+                        <div class="card border-0 btnpadd bgcolor2">
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd circlepadd1">01</p>
+                                </span>
+                                <span class="fs16 fw500">Provide access to quality education and literacy programs for
+                                    women and girls.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">02</p>
+                                </span>
+                                <span class="fs16 fw500">Offer skill development and vocational training to promote
+                                    economic independence.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">03</p>
+                                </span>
+                                <span class="fs16 fw500">Ensure comprehensive health and wellness support, including
+                                    mental health resources.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">04</p>
+                                </span>
+                                <span class="fs16 fw500">Advocate for women's rights and work towards eliminating
+                                    gender-based violence.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bgcolor1 btnpadd h-100 border-0">
+                        <div class="d-flex justify-content-between align-items-center btnpadd px-0 pt-0">
+                            <span class="fs28 fw600">Mission</span>
+                            <span><button class="btn btn2 btn3 fs14 fw500" type="submit">Learn More <i
+                                        class="fa-solid fa-arrow-right fa-rotate-by"
+                                        style="--fa-rotate-angle: 315deg;"></i>
+                        </div>
+                        <div class="card border-0 btnpadd bgcolor2">
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd circlepadd1">01</p>
+                                </span>
+                                <span class="fs16 fw500">Provide access to quality education and literacy programs for
+                                    women and girls.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">02</p>
+                                </span>
+                                <span class="fs16 fw500">Offer skill development and vocational training to promote
+                                    economic independence.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">03</p>
+                                </span>
+                                <span class="fs16 fw500">Ensure comprehensive health and wellness support, including
+                                    mental health resources.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">04</p>
+                                </span>
+                                <span class="fs16 fw500">Advocate for women's rights and work towards eliminating
+                                    gender-based violence.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 order-1 order-lg-0">
+                    <div class="card bgcolor1 btnpadd h-100 border-0">
+                        <div class="d-flex justify-content-between align-items-center btnpadd px-0 pt-0">
+                            <span class="fs28 fw600">Mission</span>
+                            <span><button class="btn btn2 btn3 fs14 fw500" type="submit">Learn More <i
+                                        class="fa-solid fa-arrow-right fa-rotate-by"
+                                        style="--fa-rotate-angle: 315deg;"></i>
+                        </div>
+                        <div class="card border-0 btnpadd bgcolor2">
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd circlepadd1">01</p>
+                                </span>
+                                <span class="fs16 fw500">Provide access to quality education and literacy programs for
+                                    women and girls.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">02</p>
+                                </span>
+                                <span class="fs16 fw500">Offer skill development and vocational training to promote
+                                    economic independence.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">03</p>
+                                </span>
+                                <span class="fs16 fw500">Ensure comprehensive health and wellness support, including
+                                    mental health resources.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">04</p>
+                                </span>
+                                <span class="fs16 fw500">Advocate for women's rights and work towards eliminating
+                                    gender-based violence.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-1 order-lg-0">
+                    <div class="card bgcolor1 btnpadd h-100 border-0">
+                        <div class="d-flex justify-content-between align-items-center btnpadd px-0 pt-0">
+                            <span class="fs28 fw600">Mission</span>
+                            <span><button class="btn btn2 btn3 fs14 fw500" type="submit">Learn More <i
+                                        class="fa-solid fa-arrow-right fa-rotate-by"
+                                        style="--fa-rotate-angle: 315deg;"></i>
+                        </div>
+                        <div class="card border-0 btnpadd bgcolor2">
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd circlepadd1">01</p>
+                                </span>
+                                <span class="fs16 fw500">Provide access to quality education and literacy programs for
+                                    women and girls.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">02</p>
+                                </span>
+                                <span class="fs16 fw500">Offer skill development and vocational training to promote
+                                    economic independence.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">03</p>
+                                </span>
+                                <span class="fs16 fw500">Ensure comprehensive health and wellness support, including
+                                    mental health resources.</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <span>
+                                    <p class="fs18 fw600 circlepadd">04</p>
+                                </span>
+                                <span class="fs16 fw500">Advocate for women's rights and work towards eliminating
+                                    gender-based violence.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section> -->
+<!-- commented for later -->
+
+    <!-- show some love -->
+    <section class="padd">
+        <div class="container-fluid">
+            <div class="row contentpadd">
+                <div class="col text-center lh-sm">
+                    <span class="fs38 fw600">Show Some Love and Care</span>
+                </div>
+            </div>
+            <div class="row contentpadd">
+                <div class="col text-center ">
+                    <span class="fs16 fw500">MKS hosts a variety of fundraising events throughout the year. These events
+                        are a great way to raise money for MKS and to have fun with other people who care about
+                        helping Women in need.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--donate form section -->
+    <section class="padd">
+        <div class="container-fluid">
+            <div class="row bgcolor3 contactform">
+                <div class="col-md-4">
+                    <img src="./assets/images/donate/formimg1.png" class="img-fluid" alt="No Image Found">
+                    <div class="contactimgbottom d-flex flex-lg-row flex-column">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p class="fs16 fw500">Follow us on social</p>
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-center justify-content-lg-start justify-content-center">
+                                <button class="btn btn4icon fs22 txtl fw500" type="submit"><i class="fa-brands fa-facebook"></i></button>
+                                <button class="btn btn4icon fs22 txtl fw500" type="submit"><i class="fa-brands fa-instagram"></i></button>
+                                <button class="btn btn4icon fs22 txtl fw500" type="submit"><i class="fa-brands fa-linkedin"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="col-md-8 bgcolor2 contactform mt-3 mt-lg-0" action="/" id="form">
+                    <div class="container">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="input-control">
+                                    <label for="firstname" class="form-label fs16 fw600">First Name</label>
+                                    <input type="text" class="bg-light p-3 fs16 fw-light" id="firstname" name="firstname" placeholder="Enter First Name **">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-control">
+                                    <label for="lastname" class="form-label fs16 fw600">Last Name</label>
+                                    <input type="text" class="bg-light p-3 fs16 fw-light" id="lastname" name="lastname" placeholder="Enter Last Name">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-control">
+                                    <label for="email" class="form-label fs16 fw600">Email</label>
+                                    <input type="text" class="bg-light p-3 fs16 fw-light" id="email" name="email" placeholder="Enter Your Email">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-control">
+                                    <label for="phone" class="form-label fs16 fw600">Phone</label>
+                                    <input type="text" class="bg-light p-3 fs16 fw-light" id="phone" name="phone" placeholder="Enter Phone Number">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="input-control">
+                                    <label for="amount" class="form-label fs16 fw600">Amount</label>
+                                    <input type="text" class="bg-light p-3 fs16 fw-light" id="amount" name="amount" placeholder="Enter Your Amount">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="input-control flex-column d-flex">
+                                    <label class="form-label fs16 fw600">Scan QR Code to Donate</label>
+                                    <img src="./assets/images/donate/qrcode.jpg" alt="No Image Found" class="img-fluid qrimg">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="input-control">
+                                    <label for="transaction" class="form-label fs16 fw600">Transaction I'D</label>
+                                        <input type="text" class="bg-light p-3 fs16 fw-light" id="transaction" name="transaction" placeholder="Enter Your Transaction I'D">
+                                        <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-control">
+                                    <label for="ssfile" class="form-label fs16 fw600">ScreenShot</label>
+                                    <input type="file" class="bg-light p-3 fs16 fw-light" id="ssfile" name="ssfile">
+                                        <div class="error"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="input-control">
+                                    <label for="message" class="form-label fs16 fw600">Message</label>
+                                    <textarea class=" bg-light p-3 fs16 fw-light" id="message" name="message" rows="3" placeholder="Enter your Message here"></textarea>
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-between align-items-center">
+                                <div class="input-control2 form-check">
+                                    <input class="form-check-input p-2" type="checkbox" value="" id="checkbox" name="checkbox">
+                                    <label class="form-check-label fs16 fw500" for="checkbox">
+                                        I agree with Terms of Use and Privacy Policy
+                                    </label>
+                                    <div class="error"></div>
+                                </div>
+                                <button type="submit" class="btn btnd fs14 fw500 p-3"><span class="text-decoration-none">Donate Now</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- pink section -->
+    <section class="padd">
+        <div class="container-fluid">
+          <div class="row pinkrow1">
+            <span class="fs38 fw600 txtl">Donate to Empower Women, Nurture <br> Communities, and Foster Sustainability</span>
+            <span class="fs16 fw500 txtl pb-3">Support our mission by donating to "Meera ke Shyam - Parayawvaran, Mahila Avam Baal Vikas Sanstha." Your donation <br> will empower women, nurture communities, and foster sustainability, creating a positive impact on the lives <br> of those we serve. Every contribution helps us make a difference.</span>
+            <div>
+              <span class="bgcolor5 pink3"><span class=" fs16 fw500 pe-2">Click here to donate and support the cause.</span><a href="donate.html" class="cardarrowhover"><button class=" btn btnp fs14 fw500"><span
+                class="text-decoration-none">Donate Now <i class="fa-solid fa-arrow-right fa-rotate-by cardarrow2"
+                style="--fa-rotate-angle: 315deg;"></i></span></button></a>
+            </div>
+          </div>
+          <div class="row pinkdesign">
+            <div class="col d-flex justify-content-between p-0">
+              <img src="./assets/images/contact/design_1.png" class="img-fluid design1" alt="No Image Found">
+              <img src="./assets/images/contact/design_2.png" class="img-fluid design2" alt="No Image Found">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- footer section -->
+    <footer class="padd">
+        <nav class="navbar navbarr navbar-expand-lg">
+            <div class="container-fluid navbarbottom">
+                <a class="navbar-brand m-md-0 m-auto" href="home.html"><img src="./assets/images/icons/logo.png"
+                        class="img-fluid logo" alt="logo"></a>
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <br>
+                        <li class="nav-item">
+                            <a class="nav-link  fs14 fw500 text-center" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  fs14 fw500 text-center" href="involved.html">Get Involved</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link activee fs14 fw500 text-center" href="donate.html">Donate</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link fs14 fw500" href="impact.html">Impact Areas</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs14 fw500 text-center" href="stories.html">Success Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs14 fw500 text-center" href="news.html">News</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link fs14 fw500 text-center" href="contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-start" role="search">
+                    <button class="btn btn4icon fs22 txtl fw500" type="submit"><i
+                            class="fa-brands fa-facebook"></i></button>
+                    <button class="btn btn4icon fs22 txtl fw500" type="submit"><i
+                            class="fa-brands fa-instagram"></i></button>
+                    <button class="btn btn4icon fs22 txtl fw500" type="submit"><i
+                            class="fa-brands fa-linkedin"></i></button>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+     <!-- copyright section -->
+   <section class="padd pt-0">
+    <div class="container-flui">
+      <div class="row">
+        <div class="col text-center">
+          <span class="fs14 fw400">© 2024 MKS . All rights reserved. Digitalshakha</span>
+        </div>
+      </div>
+    </div>
+   </section>
+
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/25b5a6d893.js" crossorigin="anonymous"></script>
+  <!-- import js -->
+  <script src="./assets/js/navbartoggler.js"></script>
+
+
+</body>
+
+</html>
